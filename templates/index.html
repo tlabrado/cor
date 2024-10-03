@@ -7,39 +7,29 @@
 
 <div class="flex-container3">
 	
-	
-	<video width="400" height="350" controls autoplay >
-		
-		<source src={{url_for('static', filename='images/vid.mp4')}} type="video/mp4">
-		
-	</video>
-		
-	
-	
-	
 	<div>
-		<p> Please press play to run the video if it
-		doesn't start automatically</p>
-	</div>
-	
-	<div>
-		<blockquote>
-			<p>Thank you for visiting our <span style="color:Tomato;">Cor </span>website. This site is for non-members who are 
-			curious about what <span style="color:Tomato;">Cor </span> is. It's also for members looking for information about our meetings or events.</p>
-			<p>Looking for general information about <span style="color:Tomato;">Cor </span>? Click the link in the Navbar or this link <a  href="{{url_for('coroverview') }}"  style="color:blue;">Cor Overview</a>. Clicking the 
-			<a  href="{{url_for('sched') }}"  style="color:blue;">Events</a> link will take you to our schedule of upcoming events.</p>
-			<p>Got Questions? Click the <a  href="mailto:9168Cor@gmail.com"  style="color:blue;">Email Us!</a> link and send us your questions. We'll get back to you as soon as we can.</p>
-			<p>Go to the <a  href="{{url_for('gallery') }}"  style="color:blue;">Gallery</a> to see photos of our activities</p>
-		</blockquote>
-	</div>
-	
+		<video width: "400" height="350" controls autoplay >
 		
-	
+			<source src={{url_for('static', filename='images/vid.mp4')}} type="video/mp4">
+				
 		
+		</video>
 
+	</div>	
+
+	<p> Please press play to run the video if it
+		doesn't start automatically
+	</p>
 	
+		
 	
-	
+	<p>Thank you for visiting our <span style="color:Tomato;">Cor </span>website. This site is for non-members who are 
+	curious about what <span style="color:Tomato;">Cor </span> is. It's also for members looking for information about our meetings or events.</p>
+	<p>Looking for general information about <span style="color:Tomato;">Cor </span>? Click the link in the Navbar or this link <a  href="{{url_for('coroverview') }}"  style="color:blue;">Cor Overview</a>. Clicking the 
+	<a  href="{{url_for('sched') }}"  style="color:blue;">Events</a> link will take you to our schedule of upcoming events.</p>
+	<p>Got Questions? Click the <a  href="mailto:9168Cor@gmail.com"  style="color:blue;">Email Us!</a> link and send us your questions. We'll get back to you as soon as we can.</p>
+	<p>Go to the <a  href="{{url_for('gallery') }}"  style="color:blue;">Gallery</a> to see photos of our activities</p>
+		
 </div>
 
 {% endblock %}
