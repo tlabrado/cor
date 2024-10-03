@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1296 1856.3">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #eb0000;
+        font-family: TimesNewRomanPSMT, 'Times New Roman';
+      }
+
+      .cls-1, .cls-2 {
+        font-size: 54px;
+      }
+
+      .cls-3 {
+        letter-spacing: -.1em;
+      }
+
+      .cls-4 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-5 {
+        letter-spacing: -.07em;
+      }
+
+      .cls-6 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-7 {
+        letter-spacing: -.08em;
+      }
+
+      .cls-8 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-2 {
+        font-family: TimesNewRomanPS-BoldMT, 'Times New Roman';
+        font-weight: 700;
+      }
+
+      .cls-9 {
+        letter-spacing: -.04em;
+      }
+    </style>
+  </defs>
+  <g id="Form">
+    <text class="cls-1"><tspan x="25.45" y="166.26">Grand Knight:</tspan></text>
+    <text class="cls-1"><tspan x="24.29" y="262.45">Chaplain:</tspan><tspan x="24.29" y="392.05">Deputy Grand Knight:</tspan><tspan x="24.29" y="521.65">Chancellor:</tspan><tspan x="24.29" y="651.25">Recorder:</tspan><tspan class="cls-8" x="24.29" y="780.85">T</tspan><tspan x="55.38" y="780.85">reasurer:</tspan><tspan x="24.29" y="910.45">Lecturer:</tspan><tspan x="24.29" y="1040.05">Advocate:</tspan><tspan class="cls-7" x="24.29" y="1169.65">W</tspan><tspan x="70.94" y="1169.65">arden:</tspan><tspan x="24.29" y="1299.25">Inside Guard:</tspan><tspan x="24.29" y="1428.85">Outside Guard:</tspan><tspan class="cls-8" x="24.29" y="1558.45">T</tspan><tspan x="55.38" y="1558.45">rustee for One</tspan><tspan class="cls-9" x="364.25" y="1558.45"> </tspan><tspan class="cls-3" x="375.74" y="1558.45">Y</tspan><tspan x="409.33" y="1558.45">ear:</tspan><tspan class="cls-8" x="24.29" y="1688.05">T</tspan><tspan x="55.38" y="1688.05">rustee for</tspan><tspan class="cls-6" x="260.78" y="1688.05"> </tspan><tspan class="cls-5" x="273.3" y="1688.05">T</tspan><tspan x="302.52" y="1688.05">wo</tspan><tspan class="cls-9" x="368.52" y="1688.05"> </tspan><tspan class="cls-3" x="380.01" y="1688.05">Y</tspan><tspan x="413.6" y="1688.05">ears:</tspan><tspan class="cls-8" x="24.29" y="1817.65">T</tspan><tspan x="55.38" y="1817.65">rustee for</tspan><tspan class="cls-6" x="260.78" y="1817.65"> </tspan><tspan x="273.3" y="1817.65">Three</tspan><tspan class="cls-9" x="399.21" y="1817.65"> </tspan><tspan class="cls-3" x="410.7" y="1817.65">Y</tspan><tspan x="444.3" y="1817.65">ears:</tspan></text>
+    <text class="cls-2" transform="translate(258.65 70.56)"><tspan x="0" y="0">Council 9168 2024-2025 Officers</tspan></text>
+  </g>
+  <g id="People">
+    <text class="cls-2" transform="translate(568.94 164.82)"><tspan x="0" y="0">Josh Ezzell</tspan></text>
+    <text class="cls-2" transform="translate(570.24 266.94)"><tspan x="0" y="0">Deacon Simeon</tspan></text>
+    <text class="cls-2" transform="translate(578.1 384.77)"><tspan x="0" y="0">Keith Korinek</tspan></text>
+    <text class="cls-2" transform="translate(572.86 515.69)"><tspan x="0" y="0">John Frazie</tspan><tspan class="cls-6" x="274.46" y="0">r</tspan></text>
+    <text class="cls-2" transform="translate(575.48 651.85)"><tspan x="0" y="0">Mark Muenich</tspan></text>
+    <text class="cls-2" transform="translate(574.17 772.3)"><tspan x="0" y="0">Charles Logsdon</tspan></text>
+    <text class="cls-2" transform="translate(574.05 918.98)"><tspan x="0" y="0">John Frazie</tspan><tspan class="cls-6" x="274.46" y="0">r</tspan></text>
+    <text class="cls-2" transform="translate(578.1 1027.6)"><tspan x="0" y="0">Mike Borgst</tspan><tspan class="cls-6" x="286.45" y="0">r</tspan><tspan x="309.45" y="0">om</tspan></text>
+    <text class="cls-2" transform="translate(587.26 1161.14)"><tspan x="0" y="0">Rafael Parra</tspan></text>
+    <text class="cls-2" transform="translate(588.57 1278.97)"><tspan x="0" y="0">Frank Pittmann</tspan></text>
+    <text class="cls-2" transform="translate(592.5 1420.36)"><tspan x="0" y="0">Clint Carrigan</tspan></text>
+    <text class="cls-2" transform="translate(587.27 1560.45)"><tspan x="0" y="0">Alan Stanley</tspan></text>
+    <text class="cls-2" transform="translate(588.58 1675.66)"><tspan x="0" y="0">Michael Clinton</tspan></text>
+    <text class="cls-2" transform="translate(584.83 1815.63)"><tspan x="0" y="0">Joseph</tspan><tspan class="cls-4" x="159.05" y="0"> </tspan><tspan x="169.57" y="0">Albanese</tspan></text>
+  </g>
+</svg>

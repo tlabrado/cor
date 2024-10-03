@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+
+
+.flex-container {
+	display: flex;
+	width: 100.8%;
+	height: 200%;
+	flex-wrap: wrap;
+	background-color: DodgerBlue;
+	justify-content: space-between;
+	align-items: top;
+	
+}
+.flex-container img {
+	width: 90px;
+	height: 90px;
+}
+
+
+
+.flex-container1 {
+	display: flex;
+	width: 100.8%;
+	height: 400px;
+	flex-wrap: wrap;
+	background-image: url({{ url_for('static', filename='images/shfinal1.png') }});
+	background-repeat: no-repeat;
+	background-size: 100%;
+	justify-content: space-around;
+	align-items: top;
+	font-size: 20px;
+		
+}
+
+.flex-container1 img {
+	width: 600px;
+	height: 300px;
+	
+	
+}
+.flex-container2 {
+	display: flex;
+	justify-content: space-around;
+	
+}
+.flex-container2 div {
+	display: flex;
+	width= 152px;
+	height= 118px;
+	font-size: 40px;
+	text-align: justify;
+}
+
+.flex-container3 {
+	display: flex;
+	width: 100.8%;
+	height: 600px;
+	flex-wrap: wrap;
+	background-image: url({{ url_for('static', filename='images/prhands.jpg') }});
+	background-repeat: no-repeat;
+	background-size: 100%;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+		
+}
+
+.flex-container3 img {
+	width: 450px;
+	height: 150px;
+	
+	
+}
+
+
+	
+	
+
+.nav {
+  width: 100%;
+  background-color: DodgerBlue;
+  padding-left: 10px;
+  padding-right: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-item a {
+  display: inline-block;
+  padding: 0px 15px;
+  text-decoration: none;
+  color: gold;
+}
+
+.nav-item:hover {
+  background-color: gold;
+}
+
+.nav-item:hover a {
+  color: darkgreen;
+}
+.logo {
+  display: inline-block;
+  color: gold;
+  font-size: 30px;
+}
+
+.sched-container {
+	display: flex;
+	width: 50%;
+	flex-wrap: wrap;
+	justify-content: end;
+	align-items: justify;
+	padding: 0px 255px;
+	
+	
+}
+.sched-container > div {
+  background-color: gold;
+  width: 150px;
+  margin: 10px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 20px;
+  
+}
+
+
+.sched-container1 {
+	display: flex;
+	width: 50%;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+		
+}
+.sched-container1 > div {
+  
+  color: #7e0d1b;
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 40px;
+}
+.sched-container2 {
+	display: flex;
+	width: 100px;
+	height: 100px;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	padding-left: 550px;
+		
+}
+
+
+
+
+
+.last {
+	justify-content: space-evenly;
+	display: flex;
+	padding: 150px;
+	height: 50px;
+	width: 120px;
+	
+}
+
+.officers {
+	display: flex;
+	width: 100.8%;
+	flex-wrap: wrap;
+	background-image: url({{ url_for('static', filename='images/emblem.svg') }});
+	background-repeat: no-repeat;
+	background-size: 100%;
+	justify-content: space-evenly;
+	align-items: top;
+	
+}
+
+.officers img {
+	width: 600px;
+	height: 550px;
+}
+.Officers > div {
+  
+  width: 300px;
+  margin: 10px;
+  text-align: center;
+  line-height: 80px;
+  font-size: 40px;
+}
+.gallery {
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+		
+}
+.gallery > div {
+  
+  color: #7e0d1b;
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 40px;
+}
+.gallery > h1 {
+  
+  color: gold;
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 40px;
+}
+
+.gallery  img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+.gallery  img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.col {
+  background: var(--subtle-yellow2);
+  padding: 1rem 2rem;
+  color: #7e0d1b;
+}
+
+.col-1 {
+  column-count: 1;
+
+}
+
+
+
+
+
+
+</style>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+
+<body>
+
+
+
+<div class="flex-container">
+
+	
+		<img src="{{ url_for ('static',filename='images/emblem.png') }}" class="image"  >
+	
+	
+		<img src="{{ url_for ('static',filename='images/IMG_6412.jpg') }}" class="image" >
+	
+	
+		<img src="{{ url_for ('static',filename='images/stluke.png') }}" class="image"  >
+	
+  
+</div>
+
+<nav class="nav">
+  <span class="logo" >Navbar</span>
+  
+  
+    <ul class="nav-links">
+      <li class="nav-item">
+        <a  href="{{url_for('home') }}">Home</a>
+      </li>
+	  <li class="nav-item">
+        <a href="{{url_for('coroverview') }}">Cor Overview</a>
+      </li>
+      <li class="nav-item">
+        <a  href="{{url_for('sched')}}">Events</a>
+      </li>
+      <li class="nav-item">
+        <a  href="{{url_for('gallery')}}">Gallery</a>
+      </li>
+      <li class="nav-item">
+        <a  href="{{url_for('officers') }}">Officers</a>
+      </li>
+	  <li class="nav-item">
+        <a  href="https://www.kofc.org" target="_blank">KofC Website</a>
+      </li>
+	  <li class="nav-item">
+        <a  href="https://www.kofc.org/secure/en/join/join-kofc.html" target="_blank">Join the Knights!</a>
+      </li>
+	  <li class="nav-item">
+        <a href="https://www.saintlukesmyrnatn.com" target="_blank">St Luke Catholic Church</a>
+      </li>
+	  <li class="nav-item">
+        <a  href="mailto:9168Cor@gmail.com" target="_blank" class="btn btn-primary">Email Us!</a>
+      </li>
+	  
+    </ul>
+  
+ </nav>
+
+
+{% block content1 %}
+{% endblock %}
+
+
+</body>
+</html>
+	
+	
+
+	
+	
+	
+
+    	

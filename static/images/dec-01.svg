@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-3, .cls-4, .cls-5, .cls-6 {
+        isolation: isolate;
+      }
+
+      .cls-3, .cls-7, .cls-5, .cls-6 {
+        font-family: TimesNewRomanPSMT, 'Times New Roman';
+      }
+
+      .cls-3, .cls-5 {
+        font-size: 108px;
+      }
+
+      .cls-7, .cls-6 {
+        fill: #d4145a;
+        font-size: 180px;
+      }
+
+      .cls-5 {
+        letter-spacing: -.12em;
+      }
+    </style>
+  </defs>
+  <g class="cls-4">
+    <g class="cls-4">
+      <text class="cls-6" transform="translate(252 204.67)"><tspan x="0" y="0">Community Service</tspan></text>
+    </g>
+  </g>
+  <g class="cls-4">
+    <g class="cls-4">
+      <text class="cls-5" transform="translate(346 458.92)"><tspan x="0" y="0">W</tspan></text>
+    </g>
+    <g class="cls-4">
+      <text class="cls-3" transform="translate(439.29 458.92)"><tspan x="0" y="0">e will be helping out at the</tspan></text>
+    </g>
+    <g class="cls-4">
+      <text class="cls-3" transform="translate(346 588.52)"><tspan x="0" y="0">church or in the community</tspan></text>
+    </g>
+  </g>
+  <text class="cls-7" transform="translate(294.07 833.08) scale(1.87 1)"><tspan x="0" y="0">Date:</tspan><tspan class="cls-2" x="389.79" y="0"> </tspan><tspan class="cls-1" x="431.54" y="0">TBD</tspan></text>
+</svg>

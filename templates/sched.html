@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+
+
+{% block content%}
+<style>
+
+
+
+
+
+</style>
+{% endblock %}
+
+
+
+{% block content1 %}
+<div class="flex-container1">
+	
+	<div style="text-align: center ">	
+		<img src="{{ url_for ('static',filename='images/events.png') }}" class="image" >
+			
+			
+			
+		<div><a  href="{{url_for('sept') }}"><h1>Sept</h1></a></div>
+		<div><a  href="{{url_for('oct') }}"><h1>Oct</h1></a></div>
+		<div><a  href="{{url_for('nov') }}"><h1>Nov</h1></a></div>
+		<div><a  href="{{url_for('dec') }}"><h1>Dec</h1></a></div>
+	</div>
+	
+	
+</div>
+
+  
+	   
+
+    
+{% endblock %}
